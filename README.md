@@ -1,2 +1,0 @@
-# earlywarning
-Begin app
