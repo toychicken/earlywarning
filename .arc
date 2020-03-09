@@ -2,7 +2,9 @@
 begin-app
 
 @http
+get /
 post /
+
 
 @tables
 data
