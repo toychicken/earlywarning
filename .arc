@@ -2,7 +2,6 @@
 begin-app
 
 @http
-get /
 post /
 
 
