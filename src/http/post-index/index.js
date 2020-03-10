@@ -7,6 +7,5 @@ exports.handler = async function http(req) {
 	return {
 		headers: {'Content-Type': 'text/plain; charset=utf8'},
 		body: text,
-		isBase64Encoded: false,
 	}
 };
