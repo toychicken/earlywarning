@@ -24,16 +24,19 @@ exports.handler = async function http(req) {
 		case "1*2":
 			text = `END Your account balance is KES 10,540`
 			break;
-		default:
+		case "":
 			text = `CON What would you want to check?
 			1. My account
 			2. My phone number`;
 			break;
+		default:
+			text = `END You sent options
+			${payload.text}`
 	}
 
 
 	return {
-		headers: {'Content-Type': 'text/plain; charset=utf8'},
+		headers: {'Content-Type': 'text/plain'},
 		body: text,
 	}
 };
