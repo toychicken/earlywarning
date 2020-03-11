@@ -42,7 +42,7 @@ const responsesRequired = [
 const respGen = {
 	respondentSick: {
 		next: (inp, params) => 'symptomsEnum',
-		question: `Who is feeling ill?
+		question: `CON Who is feeling ill?
 					1. Me
 					2. Someone I know`,
 	},
